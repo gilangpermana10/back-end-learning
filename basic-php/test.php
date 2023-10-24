@@ -11,7 +11,7 @@ function showHarga($bbm_harga){
     echo "daftar nama Nama BBM dan harga :\n";
     $nomor_urut = 1;
     foreach ($bbm_harga as $key => $value) {
-        echo $nomor_urut . ". " . $key . ": " . $value . " Rupiah/liter\n";
+        echo $nomor_urut . ". " . $key . ": " . $value . " Rupiah/liter\n"; 
         $nomor_urut++;
     }
 }

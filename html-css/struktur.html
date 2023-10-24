@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>struktur</title>
+</head>
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend > Your Details </legend>
+            <ol>
+            <p>
+                <li>
+                <label for="name">name</label>
+                <input type="text" placeholder="First and last name" required>
+            </li>   
+            </p>
+            <p>
+                <li>            
+                 <label for="email">email</label>
+                <input type="email" placeholder=" example@email.com" required>
+            </li>   
+            </p>
+            <p>
+                <li>
+                <label for="phone">phone</label>
+                <input type="number" placeholder="Ex : 081234567834" min="11" >
+                </li>
+            </p>
+        </ol>
+        </fieldset>
+        <fieldset>
+            <legend > Dilivery Details </legend>
+            <ol>
+            <p>
+                <li>
+                <label for="address">address</label>
+                <textarea name="address" id="" cols="30" rows="10" maxlength="500"></textarea>
+            </li>
+            </p>
+            <p>
+                <li>
+                <label for="post">post</label>
+                <input type="number" placeholder=" 1234" required>
+            </li>
+            </p>
+            <p>
+                <li>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="Amerika">Amerika</option>
+                </select>
+            </li>
+            </p>
+        </ol>
+        </fieldset> 
+
+        <fieldset>
+            <legend > Your Details </legend>
+            <ol>
+                <li>
+                    <fieldset>
+                        <legend>
+                            cardtype
+                        </legend>
+                        <div>
+                        <ol>
+                            <li>
+                                <input type="radio" name="visa" value="html">
+                                <label for="visa">Visa</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="AmEx" value="html">
+                                <label for="AmEx">AmEx</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="mastercard" value="html">
+                                <label for="mastercard">mastercard</label>
+                            </li>
+                        </ol>
+                    </div>
+                    </fieldset>            
+                </li>
+                <li>
+                    <label for="cardNumber">Card Number</label>
+                    <input type="number" required>
+                </li>
+                <li>
+                    <label for="securecode">Security code</label>
+                    <input type="number">
+                </li>
+                <li>
+                    <label for="nameoncard">name on card</label>
+                    <input type="number" placeholder="exact name as on the card">
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <button type="submit">
+                Buy it`
+            </button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
